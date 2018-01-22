@@ -8,7 +8,6 @@ MongoClient.connect(url, function(err, db) {
 
   db.close();
 });
-
 MongoClient.connect(url, function(err, db) {
  if (err) throw err;
   var dbo = db.db("Example");

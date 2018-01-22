@@ -6,7 +6,6 @@ MongoClient.connect(url, function(err, db) {
   var dbo = db.db("mydb");
   // var myquery = { address: "Rajajinagar" };
   // var newvalues = { name: "Mickey", address: "bangalore" };
-
   dbo.collection("employees").update({name:'Mickey'}, {name:'Mahi',address:'Chithradurga'}, function(err, res) {
     if (err) throw err;
     console.log("1 document updated");
