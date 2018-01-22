@@ -1,0 +1,19 @@
+{
+  "name": "employee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavyavshaiva/crud.git"
+  },
+  "author": "kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavyavshaiva/crud/issues"
+  },
+  "homepage": "https://github.com/kavyavshaiva/crud#readme"
+}
